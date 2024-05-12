@@ -13,9 +13,9 @@ The rules are the same as in classic legendary Pong:
 + ❌If you want to exit the game just close the app window.
 
 ## 📁 Files description
-+ **[main.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/main.py)** - Main file of the app. Here the objects for food, snake, scoreboard and screen are created and collision is being detected. From the important things you can edit screen size here or change the speed of the game.
++ **[main.py](https://github.com/Pawelo112/Pong/blob/main/main.py)** - Main file of the app. Here the objects for paddle, ball and screen are being created and collision is being detected. From the important things you can edit screen size here or change how much the ball should speed up after each bounce.
   
-+ **[food.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/food.py)** - Here the food object is being represented and its position and color is being randomized. You can add any colors to the colors list as long as Turtle module supports it.
++ **[ball.py](https://github.com/Pawelo112/Pong/blob/main/ball.py)** - Here the ball object is being represented. Here you can change the shape or the color of the ball and add any new ball behaviour that you want.
   
 + **[scoreboard.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/scoreboard.py)** - This file contains all methods connected to the scoreboard like updating score and displaying **GAME OVER** screen.
   

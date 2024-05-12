@@ -9,7 +9,7 @@ The rules are the same as in classic legendary Pong:
 + ⏬You can either hold or click the buttons to move the paddle up or down.
 + 🏅Your goal is to block the incoming ball with the paddle and make it bounce to the other side.
 + ⏩Velocity of the ball increases after each bounce.
-+ ➖1️⃣ **When the ball goes out of boud (behind your paddle) you lose a point.**
++ ➖1️⃣ **When ball goes out of bounds (behind your paddle) you lose a point.**
 + ❌If you want to exit the game just close the app window.
 
 ## 📁 Files description
@@ -19,7 +19,7 @@ The rules are the same as in classic legendary Pong:
   
 + **[scoreboard.py](https://github.com/Pawelo112/Pong/blob/main/scoreboard.py)** - This file contains all methods connected to the scoreboard like updating score and displaying it at the top of the screen. You can change the font or displayed text here.
   
-+ **[snake.py](https://github.com/Pawelo112/Simple-snake-game-in-Python/blob/main/snake.py)** - This file collects all methods and things connected to the snake object like creating small snake at the start and adding new "segments" of it, which is used after eating one piece of food by snake.
++ **[paddle.py](https://github.com/Pawelo112/Pong/blob/main/paddle.py)** - This file collects all methods and things connected to the paddle. Here you can change paddle size or where it is located. You can also change by how many pixels paddle moves up or down (25 by default).
 
 ## 📝 License
 

@@ -21,6 +21,12 @@ The rules are the same as in classic legendary Pong:
   
 + **[paddle.py](https://github.com/Pawelo112/Pong/blob/main/paddle.py)** - This file collects all methods and things connected to the paddle. Here you can change paddle size or where it is located. You can also change by how many pixels paddle moves up or down (25 by default).
 
+## 🖥️ Usage
+You can find the latest release here: [releases](https://github.com/Pawelo112/Pong/releases)  
+You can download exe file to play and test the game or whole source code to edit this game on your own 🤓.  
+
+Unfortunately windows defender and other anti-viruses detects **Pong.exe** file as a virus because it was made with pyinstaller and it is known issue with exe files made with it and there isn't much that I can do about it at the moment.
+
 ## 📝 License
 
 Copyright © 2024 [Paweł Marcinkowski](https://github.com/Pawelo112).  
